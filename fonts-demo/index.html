@@ -10,77 +10,76 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<link rel="stylesheet" href="styles.css">
-
-	<style>
-
-	p:after, h1:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
-
-	</style>
+	<link rel="stylesheet" href="ss-social.css">
+	<link rel="stylesheet" href="http://basehold.it/16">
 </head>
 <body>
+
+	<span class="ss-octocat"></span>
+	<span class="ss-twitter"></span>
+	<span class="ss-mail"></span>
+	<span class="ss-dribbble"></span>
 
 	<h1 class="tk-sommet-slab thin">Nordseewerke</h1>
 
 	<p class="tk-ubuntu">Nordseewerke with the inland port of Emden in the foreground seen from the southwest in 2010
 	Nordseewerke (sometimes abbreviated NSWE) is a shipbuilding company located in Emden, Germany. The name Nordseewerke means "North Sea shipyard" in German. The shipyard employs some 1,400 people and is the second-largest plant in Emden, following Volkswagen. It became ThyssenKrupp Marine Systems Nordseewerke in 1991[1] and then Schaaf Industrie AG[2]</p>
 
-	<h1 class="tk-sommet-slab thin">History</h1>
+	<h2 class="tk-sommet-slab thin">History</h2>
 
 	<p class="tk-ubuntu">Nordseewerke was founded on March 11, 1903 and is currently one of the oldest among the still-existing shipyards in Germany. The company built many ships for the Kaiserliche Marine during World War I, the Kriegsmarine during World War II and the modern Deutsche Marine.
-	The shipyard has also constructed ships for use by other navies, like the Kobben (Type 207) and Ula (Klasse 210) class submarines for the Royal Norwegian Navy, which were built to operate in shallow, coastal waters. In the past 20 years, submarines were also exported to South Africa, Argentina (TR-1700 submarine) and Israel.
+	The shipyard has also constructed ships for use by other navies, like the Kobben (Type 207) and Ula (Klasse 210).</p>
+
+	<p class="tk-ubuntu">Class submarines for the Royal Norwegian Navy, which were built to operate in shallow, coastal waters. In the past 20 years, submarines were also exported to South Africa, Argentina (TR-1700 submarine) and Israel.
 	Besides naval vessels, Nordseewerke builds container and other freight-carrying ships. In 1971, the cruise liner Sea Venture (later renamed the Pacific Princess) was constructed. The ship is well known as the film location of The Love Boat.</p>
 
 	<pre>
-		<code class="tk-ubuntu-mono">
-			var cubes, list, math, num, number, opposite, race, square,
-			  __slice = [].slice;
+<code class="tk-ubuntu-mono">
+var cubes, list, math, num, number, opposite, race, square,
+  __slice = [].slice;
 
-			number = 42;
+number = 42;
 
-			opposite = true;
+opposite = true;
 
-			if (opposite) {
-			  number = -42;
-			}
+if (opposite) {
+  number = -42;
+}
 
-			square = function(x) {
-			  return x * x;
-			};
+square = function(x) {
+  return x * x;
+};
 
-			list = [1, 2, 3, 4, 5];
+list = [1, 2, 3, 4, 5];
 
-			math = {
-			  root: Math.sqrt,
-			  square: square,
-			  cube: function(x) {
-			    return x * square(x);
-			  }
-			};
+math = {
+  root: Math.sqrt,
+  square: square,
+  cube: function(x) {
+    return x * square(x);
+  }
+};
 
-			race = function() {
-			  var runners, winner;
-			  winner = arguments[0], runners = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
-			  return print(winner, runners);
-			};
+race = function() {
+  var runners, winner;
+  winner = arguments[0], runners = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
+  return print(winner, runners);
+};
 
-			if (typeof elvis !== "undefined" && elvis !== null) {
-			  alert("I knew it!");
-			}
+if (typeof elvis !== "undefined" && elvis !== null) {
+  alert("I knew it!");
+}
 
-			cubes = (function() {
-			  var _i, _len, _results;
-			  _results = [];
-			  for (_i = 0, _len = list.length; _i < _len; _i++) {
-			    num = list[_i];
-			    _results.push(math.cube(num));
-			  }
-			  return _results;
-			})();
-		</code>
+cubes = (function() {
+  var _i, _len, _results;
+  _results = [];
+  for (_i = 0, _len = list.length; _i < _len; _i++) {
+    num = list[_i];
+    _results.push(math.cube(num));
+  }
+  return _results;
+})();
+</code>
 	</pre>
 </body>
 </html>

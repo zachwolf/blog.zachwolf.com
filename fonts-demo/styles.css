@@ -38,6 +38,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -46,7 +47,6 @@ table {
 .bold {
 	font-weight: 700;
 }
-
 .italic {
 	font-style: italic;
 }
@@ -78,10 +78,38 @@ body {
 
 p {
 	line-height: 1.618rem;
+	margin-bottom: 10px;
 }
 
-* { 
+* {
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box; 
+}
+
+
+p:after, h1:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'ss_socialbold';
+    src: url('fonts/ss-social-circle.eot');
+    src: url('fonts/ss-social-circle.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ss-social-circle.woff') format('woff'),
+         url('fonts/ss-social-circle.ttf') format('truetype'),
+         url('fonts/ss-social-circle.svg#ss_socialbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.icon-font {
+	font-family: ss_socialbold;
 }
