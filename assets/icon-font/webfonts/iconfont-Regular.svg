@@ -1,0 +1,558 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg>
+<metadata>
+Created by FontForge 20090622 at Tue Jan  1 02:08:38 2013
+ By root
+Copyright 2012 Adobe Systems Incorporated. All rights reserved.
+</metadata>
+<defs>
+<font id="iconfont-Regular" horiz-adv-x="1000" >
+  <font-face 
+    font-family="iconfont"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="0 0 0 0 0 0 0 0 0 0"
+    ascent="800"
+    descent="-200"
+    x-height="109"
+    cap-height="109"
+    bbox="-0.111111 -200 1791 800"
+    underline-thickness="50"
+    underline-position="-50"
+    unicode-range="U+0009-U+FB02"
+  />
+<missing-glyph 
+ />
+    <glyph glyph-name="wolf" unicode="wolf" horiz-adv-x="1791" 
+d="M292 645l482 -708l-94 -137l-680 1000h1791l-680 -1000l-327 481l93 137l234 -343l388 570h-1207z" />
+    <glyph glyph-name="github" unicode="github" 
+d="M500 800q206 0 353 -147t147 -353t-147 -353t-353 -147t-353 147t-147 353t147 353t353 147zM627 -97q128 41 209 152t81 245q0 172 -122.5 294.5t-294.5 122.5t-294.5 -122.5t-122.5 -294.5q0 -142 88.5 -255t225.5 -148l2 12v80q-43 -7 -65 -5.5t-37.5 17t-22.5 30.5
+t-20.5 35.5t-30.5 32.5q-13 10 -13 21q0 3 16 3q20 0 35.5 -13t25 -29t27.5 -29t42 -13q22 0 48 12q8 35 35 53q-109 12 -159.5 64t-50.5 157q0 70 46 119q-20 58 5 118l9 1q44 0 113 -47q50 14 111 14q51 0 101 -12q65 45 108 45l10 -1q14 -34 14 -68q0 -22 -6 -42
+q52 -52 52 -127q0 -111 -44 -160.5t-158 -60.5q23 -15 31.5 -44t5 -57t-4 -56.5t4.5 -43.5z" />
+    <glyph glyph-name="dribbble" unicode="dribbble" 
+d="M608 420l44 -99q53 7 115 7q130 0 233 -23q-2 176 -114 313q-40 -59 -120 -112.5t-158 -85.5zM830 675q-36 -55 -111.5 -104.5t-149.5 -76.5q-89 163 -187 292q61 14 118 14q188 0 330 -125zM472 464q-237 -62 -449 -61h-12q24 114 97 207t179 142q95 -127 185 -288z
+M554 302q-127 -38 -244.5 -130.5t-181.5 -205.5q-62 69 -96 156t-32 178v16q254 -6 514 71q28 -56 40 -85zM193 -94q46 100 162 187.5t233 125.5q76 -197 107 -379q-90 -40 -195 -40q-171 0 -308 106h1zM682 242q51 9 104 9q115 0 208 -30q-16 -102 -72.5 -190t-142.5 -146
+q-28 167 -97 357z" />
+    <glyph glyph-name="twitter" unicode="twitter" 
+d="M500 800q206 0 353 -147t147 -353t-147 -353t-353 -147t-353 147t-147 353t147 353t353 147zM795 425q43 32 71 73q-42 -18 -82 -22q47 29 62 79q-37 -23 -90 -35q-42 45 -104 45q-58 0 -100 -42t-42 -100q0 -6 2 -17.5t2 -14.5q-85 4 -162 43t-131 105q-20 -32 -20 -71
+q0 -76 64 -119q-35 2 -65 18v-2q-1 -50 32 -89.5t82 -49.5q-20 -5 -37 -5l-27 2q13 -43 50.5 -70t82.5 -28q-84 -67 -177 -61l-34 2q99 -64 218 -64q170 0 289.5 118t115.5 286v19z" />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
+ />
+    <glyph glyph-name="HT" unicode="&#x9;" 
+ />
+    <glyph glyph-name="LF" unicode="&#xa;" 
+ />
+    <glyph glyph-name="CR" unicode="&#xd;" 
+ />
+    <glyph glyph-name="DLE" 
+ />
+    <glyph glyph-name="DC1" 
+ />
+    <glyph glyph-name="DC2" 
+ />
+    <glyph glyph-name="DC3" 
+ />
+    <glyph glyph-name="DC4" 
+ />
+    <glyph glyph-name="RS" 
+ />
+    <glyph glyph-name="US" 
+ />
+    <glyph glyph-name="space" unicode=" " 
+ />
+    <glyph glyph-name="exclam" unicode="!" 
+ />
+    <glyph glyph-name="quotedbl" unicode="&#x22;" 
+ />
+    <glyph glyph-name="numbersign" unicode="#" 
+ />
+    <glyph glyph-name="dollar" unicode="$" 
+ />
+    <glyph glyph-name="percent" unicode="%" 
+ />
+    <glyph glyph-name="ampersand" unicode="&#x26;" 
+ />
+    <glyph glyph-name="quotesingle" unicode="'" 
+ />
+    <glyph glyph-name="parenleft" unicode="(" 
+ />
+    <glyph glyph-name="parenright" unicode=")" 
+ />
+    <glyph glyph-name="asterisk" unicode="*" 
+ />
+    <glyph glyph-name="plus" unicode="+" 
+ />
+    <glyph glyph-name="comma" unicode="," 
+ />
+    <glyph glyph-name="hyphen" unicode="-" 
+ />
+    <glyph glyph-name="period" unicode="." 
+ />
+    <glyph glyph-name="slash" unicode="/" 
+ />
+    <glyph glyph-name="zero" unicode="0" 
+ />
+    <glyph glyph-name="one" unicode="1" 
+ />
+    <glyph glyph-name="two" unicode="2" 
+ />
+    <glyph glyph-name="three" unicode="3" 
+ />
+    <glyph glyph-name="four" unicode="4" 
+ />
+    <glyph glyph-name="five" unicode="5" 
+ />
+    <glyph glyph-name="six" unicode="6" 
+ />
+    <glyph glyph-name="seven" unicode="7" 
+ />
+    <glyph glyph-name="eight" unicode="8" 
+ />
+    <glyph glyph-name="nine" unicode="9" 
+ />
+    <glyph glyph-name="colon" unicode=":" 
+ />
+    <glyph glyph-name="semicolon" unicode=";" 
+ />
+    <glyph glyph-name="less" unicode="&#x3c;" 
+ />
+    <glyph glyph-name="equal" unicode="=" 
+ />
+    <glyph glyph-name="greater" unicode="&#x3e;" 
+ />
+    <glyph glyph-name="question" unicode="?" 
+ />
+    <glyph glyph-name="at" unicode="@" 
+ />
+    <glyph glyph-name="A" unicode="A" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="B" unicode="B" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="C" unicode="C" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="D" unicode="D" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="E" unicode="E" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="F" unicode="F" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="G" unicode="G" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="H" unicode="H" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="I" unicode="I" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="J" unicode="J" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="K" unicode="K" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="L" unicode="L" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="M" unicode="M" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="N" unicode="N" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="O" unicode="O" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="P" unicode="P" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="Q" unicode="Q" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="R" unicode="R" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="S" unicode="S" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="T" unicode="T" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="U" unicode="U" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="V" unicode="V" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="W" unicode="W" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="X" unicode="X" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="Y" unicode="Y" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="Z" unicode="Z" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="bracketleft" unicode="[" 
+ />
+    <glyph glyph-name="backslash" unicode="\" 
+ />
+    <glyph glyph-name="bracketright" unicode="]" 
+ />
+    <glyph glyph-name="asciicircum" unicode="^" 
+ />
+    <glyph glyph-name="underscore" unicode="_" 
+ />
+    <glyph glyph-name="grave" unicode="`" 
+ />
+    <glyph glyph-name="a" unicode="a" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="b" unicode="b" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="c" unicode="c" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="d" unicode="d" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="e" unicode="e" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="f" unicode="f" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="g" unicode="g" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="h" unicode="h" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="i" unicode="i" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="j" unicode="j" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="k" unicode="k" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="l" unicode="l" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="m" unicode="m" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="n" unicode="n" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="o" unicode="o" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="p" unicode="p" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="q" unicode="q" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="r" unicode="r" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="s" unicode="s" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="t" unicode="t" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="u" unicode="u" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="v" unicode="v" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="w" unicode="w" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="x" unicode="x" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="y" unicode="y" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="z" unicode="z" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="braceleft" unicode="{" 
+ />
+    <glyph glyph-name="bar" unicode="|" 
+ />
+    <glyph glyph-name="braceright" unicode="}" 
+ />
+    <glyph glyph-name="asciitilde" unicode="~" 
+ />
+    <glyph glyph-name="DEL" 
+ />
+    <glyph glyph-name="uni00A0" unicode="&#xa0;" 
+ />
+    <glyph glyph-name="exclamdown" unicode="&#xa1;" 
+ />
+    <glyph glyph-name="cent" unicode="&#xa2;" 
+ />
+    <glyph glyph-name="sterling" unicode="&#xa3;" 
+ />
+    <glyph glyph-name="yen" unicode="&#xa5;" 
+ />
+    <glyph glyph-name="brokenbar" unicode="&#xa6;" 
+ />
+    <glyph glyph-name="section" unicode="&#xa7;" 
+ />
+    <glyph glyph-name="dieresis" unicode="&#xa8;" 
+ />
+    <glyph glyph-name="copyright" unicode="&#xa9;" 
+ />
+    <glyph glyph-name="ordfeminine" unicode="&#xaa;" 
+ />
+    <glyph glyph-name="guillemotleft" unicode="&#xab;" 
+ />
+    <glyph glyph-name="logicalnot" unicode="&#xac;" 
+ />
+    <glyph glyph-name="registered" unicode="&#xae;" 
+ />
+    <glyph glyph-name="macron" unicode="&#xaf;" 
+ />
+    <glyph glyph-name="degree" unicode="&#xb0;" 
+ />
+    <glyph glyph-name="plusminus" unicode="&#xb1;" 
+ />
+    <glyph glyph-name="twosuperior" unicode="&#xb2;" 
+ />
+    <glyph glyph-name="threesuperior" unicode="&#xb3;" 
+ />
+    <glyph glyph-name="acute" unicode="&#xb4;" 
+ />
+    <glyph glyph-name="mu" unicode="&#xb5;" 
+ />
+    <glyph glyph-name="paragraph" unicode="&#xb6;" 
+ />
+    <glyph glyph-name="periodcentered" unicode="&#xb7;" 
+ />
+    <glyph glyph-name="cedilla" unicode="&#xb8;" 
+ />
+    <glyph glyph-name="onesuperior" unicode="&#xb9;" 
+ />
+    <glyph glyph-name="ordmasculine" unicode="&#xba;" 
+ />
+    <glyph glyph-name="guillemotright" unicode="&#xbb;" 
+ />
+    <glyph glyph-name="onequarter" unicode="&#xbc;" 
+ />
+    <glyph glyph-name="onehalf" unicode="&#xbd;" 
+ />
+    <glyph glyph-name="threequarters" unicode="&#xbe;" 
+ />
+    <glyph glyph-name="questiondown" unicode="&#xbf;" 
+ />
+    <glyph glyph-name="Agrave" unicode="&#xc0;" 
+ />
+    <glyph glyph-name="Aacute" unicode="&#xc1;" 
+ />
+    <glyph glyph-name="Acircumflex" unicode="&#xc2;" 
+ />
+    <glyph glyph-name="Atilde" unicode="&#xc3;" 
+ />
+    <glyph glyph-name="Adieresis" unicode="&#xc4;" 
+ />
+    <glyph glyph-name="Aring" unicode="&#xc5;" 
+ />
+    <glyph glyph-name="AE" unicode="&#xc6;" 
+ />
+    <glyph glyph-name="Ccedilla" unicode="&#xc7;" 
+ />
+    <glyph glyph-name="Egrave" unicode="&#xc8;" 
+ />
+    <glyph glyph-name="Eacute" unicode="&#xc9;" 
+ />
+    <glyph glyph-name="Ecircumflex" unicode="&#xca;" 
+ />
+    <glyph glyph-name="Edieresis" unicode="&#xcb;" 
+ />
+    <glyph glyph-name="Igrave" unicode="&#xcc;" 
+ />
+    <glyph glyph-name="Iacute" unicode="&#xcd;" 
+ />
+    <glyph glyph-name="Icircumflex" unicode="&#xce;" 
+ />
+    <glyph glyph-name="Idieresis" unicode="&#xcf;" 
+ />
+    <glyph glyph-name="Eth" unicode="&#xd0;" 
+ />
+    <glyph glyph-name="Ntilde" unicode="&#xd1;" 
+d="M0 56q0 22 15.5 37.5t37.5 15.5t37.5 -15.5t15.5 -37.5t-15.5 -37.5t-37.5 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="Ograve" unicode="&#xd2;" 
+ />
+    <glyph glyph-name="Oacute" unicode="&#xd3;" 
+ />
+    <glyph glyph-name="Ocircumflex" unicode="&#xd4;" 
+ />
+    <glyph glyph-name="Otilde" unicode="&#xd5;" 
+ />
+    <glyph glyph-name="Odieresis" unicode="&#xd6;" 
+ />
+    <glyph glyph-name="multiply" unicode="&#xd7;" 
+ />
+    <glyph glyph-name="Oslash" unicode="&#xd8;" 
+ />
+    <glyph glyph-name="Ugrave" unicode="&#xd9;" 
+ />
+    <glyph glyph-name="Uacute" unicode="&#xda;" 
+ />
+    <glyph glyph-name="Ucircumflex" unicode="&#xdb;" 
+ />
+    <glyph glyph-name="Udieresis" unicode="&#xdc;" 
+ />
+    <glyph glyph-name="Yacute" unicode="&#xdd;" 
+ />
+    <glyph glyph-name="Thorn" unicode="&#xde;" 
+ />
+    <glyph glyph-name="germandbls" unicode="&#xdf;" 
+ />
+    <glyph glyph-name="agrave" unicode="&#xe0;" 
+ />
+    <glyph glyph-name="aacute" unicode="&#xe1;" 
+ />
+    <glyph glyph-name="acircumflex" unicode="&#xe2;" 
+ />
+    <glyph glyph-name="atilde" unicode="&#xe3;" 
+ />
+    <glyph glyph-name="adieresis" unicode="&#xe4;" 
+ />
+    <glyph glyph-name="aring" unicode="&#xe5;" 
+ />
+    <glyph glyph-name="ae" unicode="&#xe6;" 
+ />
+    <glyph glyph-name="ccedilla" unicode="&#xe7;" 
+ />
+    <glyph glyph-name="egrave" unicode="&#xe8;" 
+ />
+    <glyph glyph-name="eacute" unicode="&#xe9;" 
+ />
+    <glyph glyph-name="ecircumflex" unicode="&#xea;" 
+ />
+    <glyph glyph-name="edieresis" unicode="&#xeb;" 
+ />
+    <glyph glyph-name="igrave" unicode="&#xec;" 
+ />
+    <glyph glyph-name="iacute" unicode="&#xed;" 
+ />
+    <glyph glyph-name="icircumflex" unicode="&#xee;" 
+ />
+    <glyph glyph-name="idieresis" unicode="&#xef;" 
+ />
+    <glyph glyph-name="eth" unicode="&#xf0;" 
+ />
+    <glyph glyph-name="ntilde" unicode="&#xf1;" 
+ />
+    <glyph glyph-name="ograve" unicode="&#xf2;" 
+ />
+    <glyph glyph-name="oacute" unicode="&#xf3;" 
+ />
+    <glyph glyph-name="ocircumflex" unicode="&#xf4;" 
+ />
+    <glyph glyph-name="otilde" unicode="&#xf5;" 
+ />
+    <glyph glyph-name="odieresis" unicode="&#xf6;" 
+ />
+    <glyph glyph-name="divide" unicode="&#xf7;" 
+ />
+    <glyph glyph-name="oslash" unicode="&#xf8;" 
+ />
+    <glyph glyph-name="ugrave" unicode="&#xf9;" 
+ />
+    <glyph glyph-name="uacute" unicode="&#xfa;" 
+ />
+    <glyph glyph-name="ucircumflex" unicode="&#xfb;" 
+ />
+    <glyph glyph-name="udieresis" unicode="&#xfc;" 
+ />
+    <glyph glyph-name="yacute" unicode="&#xfd;" 
+ />
+    <glyph glyph-name="thorn" unicode="&#xfe;" 
+ />
+    <glyph glyph-name="ydieresis" unicode="&#xff;" 
+ />
+    <glyph glyph-name="dotlessi" unicode="&#x131;" 
+ />
+    <glyph glyph-name="Lslash" unicode="&#x141;" 
+ />
+    <glyph glyph-name="lslash" unicode="&#x142;" 
+ />
+    <glyph glyph-name="OE" unicode="&#x152;" 
+ />
+    <glyph glyph-name="oe" unicode="&#x153;" 
+ />
+    <glyph glyph-name="Scaron" unicode="&#x160;" 
+ />
+    <glyph glyph-name="scaron" unicode="&#x161;" 
+ />
+    <glyph glyph-name="Ydieresis" unicode="&#x178;" 
+ />
+    <glyph glyph-name="Zcaron" unicode="&#x17d;" 
+ />
+    <glyph glyph-name="zcaron" unicode="&#x17e;" 
+ />
+    <glyph glyph-name="florin" unicode="&#x192;" 
+ />
+    <glyph glyph-name="circumflex" unicode="&#x2c6;" 
+ />
+    <glyph glyph-name="caron" unicode="&#x2c7;" 
+ />
+    <glyph glyph-name="breve" unicode="&#x2d8;" 
+ />
+    <glyph glyph-name="dotaccent" unicode="&#x2d9;" 
+ />
+    <glyph glyph-name="ring" unicode="&#x2da;" 
+ />
+    <glyph glyph-name="ogonek" unicode="&#x2db;" 
+ />
+    <glyph glyph-name="tilde" unicode="&#x2dc;" 
+ />
+    <glyph glyph-name="hungarumlaut" unicode="&#x2dd;" 
+ />
+    <glyph glyph-name="pi" unicode="&#x3c0;" 
+ />
+    <glyph glyph-name="endash" unicode="&#x2013;" 
+ />
+    <glyph glyph-name="emdash" unicode="&#x2014;" 
+ />
+    <glyph glyph-name="quoteleft" unicode="&#x2018;" 
+ />
+    <glyph glyph-name="quoteright" unicode="&#x2019;" 
+ />
+    <glyph glyph-name="quotesinglbase" unicode="&#x201a;" 
+ />
+    <glyph glyph-name="quotedblleft" unicode="&#x201c;" 
+ />
+    <glyph glyph-name="quotedblright" unicode="&#x201d;" 
+ />
+    <glyph glyph-name="quotedblbase" unicode="&#x201e;" 
+ />
+    <glyph glyph-name="dagger" unicode="&#x2020;" 
+ />
+    <glyph glyph-name="daggerdbl" unicode="&#x2021;" 
+ />
+    <glyph glyph-name="bullet" unicode="&#x2022;" 
+ />
+    <glyph glyph-name="ellipsis" unicode="&#x2026;" 
+ />
+    <glyph glyph-name="perthousand" unicode="&#x2030;" 
+ />
+    <glyph glyph-name="guilsinglleft" unicode="&#x2039;" 
+ />
+    <glyph glyph-name="guilsinglright" unicode="&#x203a;" 
+ />
+    <glyph glyph-name="fraction" unicode="&#x2044;" 
+ />
+    <glyph glyph-name="Euro" unicode="&#x20ac;" 
+ />
+    <glyph glyph-name="trademark" unicode="&#x2122;" 
+ />
+    <glyph glyph-name="Omega" unicode="&#x2126;" 
+ />
+    <glyph glyph-name="partialdiff" unicode="&#x2202;" 
+ />
+    <glyph glyph-name="Delta" unicode="&#x2206;" 
+ />
+    <glyph glyph-name="product" unicode="&#x220f;" 
+ />
+    <glyph glyph-name="summation" unicode="&#x2211;" 
+ />
+    <glyph glyph-name="minus" unicode="&#x2212;" 
+ />
+    <glyph glyph-name="radical" unicode="&#x221a;" 
+ />
+    <glyph glyph-name="infinity" unicode="&#x221e;" 
+ />
+    <glyph glyph-name="integral" unicode="&#x222b;" 
+ />
+    <glyph glyph-name="approxequal" unicode="&#x2248;" 
+ />
+    <glyph glyph-name="notequal" unicode="&#x2260;" 
+ />
+    <glyph glyph-name="lessequal" unicode="&#x2264;" 
+ />
+    <glyph glyph-name="greaterequal" unicode="&#x2265;" 
+ />
+    <glyph glyph-name="lozenge" unicode="&#x25ca;" 
+ />
+    <glyph glyph-name="apple" unicode="&#xf8ff;" 
+ />
+    <glyph glyph-name="fi" unicode="&#xfb01;" 
+ />
+    <glyph glyph-name="fl" unicode="&#xfb02;" 
+ />
+  </font>
+</defs></svg>
