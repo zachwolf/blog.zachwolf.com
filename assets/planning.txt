@@ -1,0 +1,206 @@
+About blogging engine:
+
+    Text and blog content should be abstracted out of the HTML. For example, classes should be abstracted out so future changes can be reflected in previous entries without re-writting content. 
+
+    Text to code translator should work on both front-end (live preview) and back-end (page content).
+
+Type of content:
+
+    1. text:
+        a. headlines
+        b. body copy
+        c. links
+        d. code snippets
+            I. raw
+            II. rendered (i.e. coffeescript)
+        e. pull quotes
+    2. image:
+    3. video:
+
+
+    <!--
+    This isn't really a part of the blog itsself
+    4. navigation:
+        a. primary:
+        b. secondary:
+    5. comments:
+        a. code snippets
+        b. text
+        c. links
+    -->
+
+Examples
+
+    1.
+        a. <h1> {content} </h1>
+           <h2> {content} </h2>
+           <h3> {content} </h3>
+           <h4> {content} </h4>
+           <h5> {content} </h5>
+           <h6> {content} </h6>
+        b. <p> {content} </p>
+           <span> {content} </span
+        c. <a href=" {url} "> {content} </a>
+        d. <code data-language_type=" {language-type} "> {content} </code>
+        e. <blockquote><p> {content} </p></blockquote>
+    2. <img src=" {url} " alt=" {alt text} " />
+    3. (not sure on this yet)
+
+Solutions
+    
+
+    ( markdown )
+
+
+        ###
+
+        Some sort of key
+
+        h1 = <h1 class="headline">$content</h1>;
+
+        ###
+
+
+        #[class="custom-class-maybe"] headline 1
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Inventore aspernatur tenetur delectus veniam commodi a modi. 
+        numquam ad dolor quia repudiandae eius placeat laudantium corrupti nobis est adipisci aliquam natus!
+
+        ## headline 2
+
+        Lorem ipsum dolor sit amet, ( http://google.com ) consectetur adipisicing elit. Inventore aspernatur tenetur delectus veniam commodi a modi numquam ad dolor quia repudiandae eius placeat laudantium corrupti nobis est adipisci aliquam natus!
+
+        -[class="unrendered"] 
+            `[data-language="coffeescript"] do ( $ = jQuery ) ->
+
+        -[class="rendered"] 
+            `[data-language="javascript"] (function($){})(jQuery);
+        
+        ### headline 3
+
+        > "Lorem ipsum dolor sit amet, consectetur. " - ( http://zachwolf.com )[text="Zach Wolf"]
+
+        ( image )
+
+        #### headline 4
+        ##### headline 5
+        ###### headline 6
+
+
+    ( html )
+
+        <h1 class="headline custom-class-maybe">headline 1</h1>
+
+        <p class="foo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+        Inventore aspernatur tenetur delectus veniam commodi a modi. <br />
+        numquam ad dolor quia repudiandae eius placeat laudantium corrupti nobis est adipisci aliquam natus!</p>
+
+        <h2>headline 2</h2>
+
+        <p class="foo">Lorem ipsum dolor sit amet, <a href="http://google.com">http://google.com</a> consectetur adipisicing elit. Inventore aspernatur tenetur delectus veniam commodi a modi numquam ad dolor quia repudiandae eius placeat laudantium corrupti nobis est adipisci aliquam natus!</p>
+
+
+
+        <ul data-codepreview="toggle-wrapper">
+            <li>
+                <nav>
+                    <ul>
+                        <li>
+                            <button>Coffeescript</button>
+                        </li>
+                        <li>
+                            <button>JavaScript</button>
+                        </li>
+                    </ul>
+                </nav>
+            </li>
+            <li class="unrendered">
+                <code data-language="coffeescript">
+                    do ( $ = jQuery ) -&gt;
+                </code>
+            </li>
+            <li>
+                <code data-language="javascript">
+                    do ( $ = jQuery ) -&gt;
+                </code>
+            </li>
+        </ul>
+
+        <h3>headline 3</h3>
+
+        <blockquote> "Lorem ipsum dolor sit amet, consectetur. " - <a href="http://zachwolf.com">Zach Wolf</a>
+
+        ( image )
+
+        <h4>headline 4</h4>
+        <h5>headline 5</h5>
+        <h6>headline 6</h6>
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

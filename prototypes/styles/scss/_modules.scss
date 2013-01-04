@@ -1,0 +1,72 @@
+@import 'modules/inline-list';
+
+//@mixin post-styling() {
+//}
+
+@mixin post-styling($class) {
+	#{$class} {
+		code {
+			font-family: "ubuntu-mono", sans-serif;
+			background-color: $c-10-shades-of-grey;
+			border: 1px solid $c-20-shades-of-grey;
+			display: inline-block;
+			border-radius: 3px;
+			padding: 0 7px;
+		}
+
+		pre > code {
+			padding: 0.625rem 1.618rem;
+			margin: 0 -0.809rem 1rem -0.809rem;
+			line-height: 1.618;
+			display: block;
+			overflow-x: scroll;
+		}
+
+		h1 {
+			font-family: "sommet-slab", sans-serif;
+			margin: 0 1.618rem 1.618rem;
+			padding-bottom: 1.618rem;
+			font-size: 4.236rem;
+			position: relative;
+			font-weight: 100;
+			color: #E05200;
+
+			&::after {
+				margin-left: (17.942rem / 2rem) * -1rem;
+				background-color: $c-20-shades-of-grey;
+				position: absolute;
+				width: 17.942rem;
+				display: block;
+				content: "";
+				height: 1px;
+				bottom: 0;
+				left: 50%;
+			}
+		}
+
+		h2 {
+			font-family: "sommet-slab", sans-serif;
+			font-size: 2.5888rem;
+			font-weight: 100;
+			color: #E05200;
+			margin-bottom: 0.5rem;
+		}
+
+		p {
+			line-height: 1.618rem;
+			margin-bottom: 1rem;
+		}
+
+		header {
+			text-align: center;
+
+			a {
+				color: $c-10-shades-of-grey;
+			}
+
+			p {
+				color: $c-10-shades-of-grey;
+			}
+		}
+	} // end #{$class}
+} // end mixin

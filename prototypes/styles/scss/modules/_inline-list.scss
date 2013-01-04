@@ -1,0 +1,7 @@
+//inline-list
+
+/*ul*/.inline-list {
+	& > li {
+		display: inline-block;	
+	}
+}

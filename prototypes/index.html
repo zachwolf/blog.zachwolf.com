@@ -1,0 +1,273 @@
+<!doctype html public "(╯°□°）╯︵ ┻━┻">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="styles/app.css">
+
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+
+	<script type="text/javascript" src="//use.typekit.net/qnh5emf.js"></script>
+	<script type="text/javascript">
+		!function(w, doc){
+			try {
+				Typekit.load();
+			}
+			catch(e){}
+			finally {
+				var style = doc.getElementsByTagName("link"),
+						// regex = (/(https?\:\/\/use\.typekit\.net)/i);
+						regex = (/(^https?)/i); // http or https
+
+				for (var i = style.length - 1; i >= 0; i--) {
+					if(!!regex.test(style[i].href)) {
+						style[i].setAttribute("data-noprefix");
+						break;
+					}
+				};
+			}
+		}(window, document);
+	</script>
+	
+</head>
+<body class="tk-ubuntu">
+
+
+<nav class="l-primary-nav primary-nav hover-animation">
+
+	<ul class="inline-list list-nav list-nav-right l-align-right">
+		<li>
+			<a href="#" class="hover-animation text-nav active-nav">Blog</a>
+		</li>
+		<li>
+			<a href="#" class="hover-animation text-nav">Portfolio</a>
+		</li>
+		<li>
+			<a href="#" class="hover-animation text-nav">About</a>
+		</li>
+	</ul>
+</nav>
+
+
+
+<div class="i-font">wolf github dribbble twitter</div>
+
+
+
+
+<!-- Move to footer? -->
+	<!--
+	My name is Zach Wolf. This blog is about my adventures in web design and development. 
+
+	 <ul class="inline-list ss-icon icon-nav">
+		<li>
+			<a href="#">email</a>
+		</li>
+		<li>
+			<a href="#">githuboctocat</a>
+		</li>
+		<li>
+			<a href="#">twitter</a>
+		</li>
+		<li>
+			<a href="#">dribbble</a>
+		</li>
+	</ul> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="article-wrap">
+
+
+
+
+
+
+<article class="l-post-wrap">
+
+<header>
+<h1>Lorem ipsum dolor sit</h1>
+
+<p>
+Posted on <a href="http://daneden.me/2012/12/building-a-brand/" title="10:39 am" rel="bookmark"><time datetime="2012-12-17T10:39:59+00:00" pubdate="">December 17, 2012</time></a>
+</p>
+
+</header>
+
+<p>So, you wanna use inuit.css? That’s awesome, thanks!</p>
+
+<p>Setting inuit.css up is surprisingly simple, but before you can go anywhere,
+inuit.css assumes/requires a few things:</p>
+
+<ul class="numbered-list">
+<li>You have Sass set up, either via the command line or a GUI.</li>
+<li>You are comfortable with concepts like OO, abstraction, DRYness, the
+single responsibility principle and other OOCSS schools of thought.</li>
+<li>You ain’t need no design!</li>
+</ul>
+
+
+<p>If the above is all good, then let’s get going!</p>
+
+<h2>Getting inuit.css</h2>
+
+<p>There are a number of ways to get inuit.css into your project; you can
+<a href="https://github.com/csswizardry/inuit.css/archive/master.zip">download the zip</a>
+or <code>git clone</code> it into a CSS directory in your project, thus:</p>
+
+<pre><code>~$ cd path/to/your/site
+~/path/to/your/site$ git clone https://github.com/csswizardry/inuit.css.git css
+Cloning into 'css'...
+</code></pre>
+
+<h2>Setting up your project</h2>
+
+<p>Once you have inuit.css downloaded and in your <code>css/</code> directory, you need to
+alter a few things.</p>
+
+<p>Firstly, you can delete <code>README.md</code>, you probably won’t need that. Next up, you
+need to rename <code>your-project.scss</code> to something a little more suitable, perhaps
+<code>style.scss</code> or the name of the project you’re working on (e.g. <code>csswizardry.scss</code>).</p>
+
+<p>Once you’ve renamed that file, you need to open up <code>watch.sh</code> and change all
+instances of <code>your-project</code> to whatever name you just chose. A simple global
+find and replace will sort this in a flash.</p>
+
+<p>Lastly, you should pop open <code>_vars.scss</code> and alter your projects’ settings
+accordingly; here you can set typographic styles, define media query breakpoints,
+tell inuit.css to be responsive or not, and a whole lot more.</p>
+
+<p>Once you’ve got those set up, you’re now ready to start work!</p>
+
+<h2>Running inuit.css</h2>
+
+<p>Running inuit.css is simple, you can use a GUI like
+<a href="http://incident57.com/codekit/">CodeKit</a> to watch the <code>css/</code> directory or you
+can run Sass from the command line via the <code>watch.sh</code> file, like so:</p>
+
+<pre><code>~/path/to/your-site/css$ sh watch.sh
+</code></pre>
+
+<p>Now Sass is watching your CSS directory and will compile inuit.css and your
+theme stylesheets into your final, production file.</p>
+
+<p><strong>N.B.</strong> It is advised that you only ever deploy a minified stylesheet as
+inuit.css contains a <em>lot</em> of comments and whitespace.</p>
+
+<h2>Extending inuit.css</h2>
+
+<p>inuit.css is a framework in its truest sense; it is a helping hand which you
+work on top of. This means that, on its own, inuit.css won’t do much for you; it
+is designed to be extended by developers who lay their theme over the top of it.</p>
+
+<p>Extending inuit.css is super simple, you just import your own files into <code>your-project.scss</code>
+<em>after</em> the framework gets imported. You can find this comment in that file:</p>
+
+<pre><code>/**
+* She’s all yours, cap’n... Begin importing your stuff here.
+*/
+</code></pre>
+
+<p>I find the simplest way to manage this extension is to create a new directory in
+<code>css/</code> called <code>ui/</code> or similar. Looking at the source for this blog, you can
+<a href="https://github.com/csswizardry/inuit.css/blob/gh-pages/css/inuit.scss#L21-L31">see this in action</a>.</p>
+
+<p>Now you are calling in your variables, then the framework which picks up and
+utilises those variables, then your array of UI components that sit on top of
+all of that. It’s also worth noting that, naturally, all the variables defined
+in <code>_vars.scss</code> remain available to you for use in your UI component files.</p>
+
+<p>The best way to see this whole process is probably to just have a poke
+through <a href="https://github.com/csswizardry/inuit.css/tree/gh-pages">this blog’s source on GitHub</a>.</p>
+
+<p>So, hopefully that should be a decent, quick guide to setting inuit.css up, but
+if you think I’ve missed anything, or you’d like to know more about something in
+particular, please <a href="http://twitter.com/inuitcss">let me know</a> and I’ll
+amend/update this post.</p>
+
+<p>Cheers,<br>
+<i>H</i></p>
+
+</article>
+
+
+
+
+
+</section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<script type="text/javascript" src="js/libs/prefixfree.min.js"></script> <!-- should this be in the head? -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script src="http://grids.ee.local/gridsee.js"></script>
+
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>

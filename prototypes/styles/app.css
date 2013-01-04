@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/*
+ * To-Dos:
+ *
+ * Global:
+ *    - Logo Placement
+ *    - Social Nav
+ *    - Footer content
+ *    - Footer Styling
+ *
+ * Single post:
+ *    - Fix ul / ol styling
+ *    - Work on date posted styling
+ * 
+ * Landing Page:
+ *    - Make Post list navigation
+ *    - style pagination
+ * 
+ */
+/* Modular Scale ---------------------- 16px @ 1:1.618   10px @ 1:1.618  ----------------------
+Pixels      Ems         Ems @ 16    % of 13
+759.989     47.499      47.499      5,846.069
+751.538     46.971      46.971      5,781.062
+469.709     29.357      29.357      3,613.146
+464.486     29.03       29.03       3,572.969
+290.302     18.144      18.144      2,233.092
+287.074     17.942      17.942      2,208.262
+179.420     11.214      11.214      1,380.154
+177.425     11.089      11.089      1,364.808
+110.890     6.931       6.931       853.000
+109.657     6.854       6.854       843.515
+68.535      4.283       4.283       527.192
+67.773      4.236       4.236       521.331
+42.358      2.647       2.647       325.831
+41.887      2.618       2.618       322.208
+26.179      1.636       1.636       201.377
+25.888      1.618       1.618       199.138
+16.180      1.011       1.011       124.462
+16.000      1           1           123.077
+10.000      0.625       0.625       76.923
+9.889       0.618       0.618       76.069
+6.180       0.386       0.386       47.538
+6.112       0.382       0.382       47.015
+3.820       0.239       0.239       29.385
+3.778       0.236       0.236       29.062
+2.361       0.148       0.148       18.162
+2.335       0.146       0.146       17.962
+1.459       0.091       0.091       11.223
+1.443       0.09        0.09        11.100 */
+@font-face {
+  font-family: 'iconfont';
+  src: url("/fonts/iconfont-Regular.woff") format("woff"), url("/fonts/iconfont-Regular.ttf") format("truetype");
+  /* Safari 3—5, Chrome4+, Firefox 3.5, Opera 10+ */
+}
+
+/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+.i-font {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.wolf-icon::before {
+  font-family: "iconfont";
+  content: "";
+}
+
+/****************
+ * Folder Paths *
+ ****************/
+/**********
+ * Images *
+ **********/
+/**********
+ * Colors *
+ **********/
+/************
+ * Defaults *
+ ************/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3,
+h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code,
+dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*
+li {
+  list-style: none;
+}
+*/
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/*
+ * Set all elements to use border=box sizing. // http://paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * Set all images from growing outside of their containers
+ */
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, sans-serif;
+}
+
+.l-post-wrap {
+  margin: 0 1.618rem;
+}
+.l-post-wrap li {
+  margin-left: 30px;
+}
+
+.l-primary-nav {
+  padding: 0 1.618rem;
+  margin-bottom: 1.618rem;
+}
+
+[class*="l-"]::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.l-align-left {
+  float: left;
+}
+
+.l-align-right {
+  float: right;
+}
+
+/*ul*/
+.inline-list > li {
+  display: inline-block;
+}
+
+.article-wrap code {
+  font-family: "ubuntu-mono", sans-serif;
+  background-color: #e6e6e6;
+  border: 1px solid #cccccc;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0 7px;
+}
+.article-wrap pre > code {
+  padding: 0.625rem 1.618rem;
+  margin: 0 -0.809rem 1rem -0.809rem;
+  line-height: 1.618;
+  display: block;
+  overflow-x: scroll;
+}
+.article-wrap h1 {
+  font-family: "sommet-slab", sans-serif;
+  margin: 0 1.618rem 1.618rem;
+  padding-bottom: 1.618rem;
+  font-size: 4.236rem;
+  position: relative;
+  font-weight: 100;
+  color: #E05200;
+}
+.article-wrap h1::after {
+  margin-left: -8.971rem;
+  background-color: #cccccc;
+  position: absolute;
+  width: 17.942rem;
+  display: block;
+  content: "";
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+}
+.article-wrap h2 {
+  font-family: "sommet-slab", sans-serif;
+  font-size: 2.5888rem;
+  font-weight: 100;
+  color: #E05200;
+  margin-bottom: 0.5rem;
+}
+.article-wrap p {
+  line-height: 1.618rem;
+  margin-bottom: 1rem;
+}
+.article-wrap header {
+  text-align: center;
+}
+.article-wrap header a {
+  color: #e6e6e6;
+}
+.article-wrap header p {
+  color: #e6e6e6;
+}
+
+body {
+  color: #1a1a1a;
+  max-width: 46.971rem;
+  font-size: 1.125rem;
+  margin: 0 auto;
+}
+.-webkit- body {
+  -webkit-backface-visibility: hidden;
+}
+
+a {
+  color: #e05200;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+  background: #e05200;
+  /* Safari */
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #e05200;
+  /* Firefox */
+  color: #fff;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover-animation {
+  transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.hover-animation:hover {
+  transition: all 0;
+}
+
+/*nav*/
+.primary-nav {
+  animation-name: fadeInDown;
+  /* Called on page load */
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #FFF;
+  /*nav*/
+}
+.primary-nav:hover {
+  border-bottom: 1px solid #cccccc;
+  /*a*/
+  /*a*/
+}
+.primary-nav:hover .text-nav {
+  transition: all 0 cubic-bezier(0.23, 1, 0.32, 1);
+  color: #b3b3b3;
+}
+.primary-nav:hover .active-nav,
+.primary-nav:hover .text-nav:hover {
+  border-bottom: 3px solid #e05200;
+  color: #e05200;
+}
+.primary-nav a {
+  color: #cccccc;
+}
+.primary-nav a:hover {
+  text-decoration: none;
+  color: #e05200;
+}
+
+/*ul*/
+.list-nav {
+  font-family: "sommet-slab";
+}
+.list-nav li {
+  margin-right: 1.011rem;
+  display: table;
+  float: left;
+}
+
+/*ul*/
+.list-nav-right li {
+  margin-right: 0;
+  margin-left: 1.011rem;
+}
+
+/*a*/
+.text-nav {
+  color: #cccccc;
+  vertical-align: middle;
+  padding: 1rem 0.625rem;
+  display: table-cell;
+  font-size: 1.25rem;
+  height: 1.618rem;
+  border-bottom: 3px solid #fff;
+}
+
+/*a*/
+.active-nav {
+  border-bottom: 3px solid #cccccc;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+/*ul*/
+.icon-nav {
+  position: absolute;
+  right: 1.618rem;
+  bottom: 0;
+  top: 0;
+}
+.icon-nav li {
+  float: left;
+  display: table;
+  height: 100%;
+}
+.icon-nav li a {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/***********
+ * Layouts *
+ ***********/
+/***********
+ * Modules *
+ ***********/
+/**********
+ * States *
+ **********/
