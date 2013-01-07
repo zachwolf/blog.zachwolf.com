@@ -4,3 +4,5 @@ logs/access.log
 logs/error.log
 
 codekit-config.json
+
+*.scssc
