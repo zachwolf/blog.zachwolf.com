@@ -47,21 +47,55 @@ Pixels      Ems         Ems @ 16    % of 13
 2.335       0.146       0.146       17.962
 1.459       0.091       0.091       11.223
 1.443       0.09        0.09        11.100 */
+/*
+ *  Usage examples:
+ *
+ *    Replace word with icon
+ *
+ *      <a class="icon-font">twitter</a>
+ *
+ *    Add icon before word
+ *
+ *      <a class="icon-twitter">Twitter</a>
+ *
+ *    Add icon after word
+ *
+ *      <a class="icon-twitter right">Twitter</a>
+ *
+ *  Supported words:
+ *    - twitter
+ *    - github
+ *    - dribbble
+ *    - wolf
+ *
+ */
 @font-face {
-  font-family: 'iconfont';
-  src: url("/fonts/iconfont-Regular.woff") format("woff"), url("/fonts/iconfont-Regular.ttf") format("truetype");
-  /* Safari 3—5, Chrome4+, Firefox 3.5, Opera 10+ */
+  font-family: 'iconfont-Regular';
+  src: url("/fonts/iconfont-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/iconfont-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/iconfont-Regular.woff") format("woff"), url("/fonts/iconfont-Regular.ttf") format("truetype"), url("/fonts/iconfont-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* This triggers a redraw in IE to Fix IE8's :before content rendering. */
-.i-font {
+html:hover [class^="ss-"] {
+  -ms-zoom: 1;
+}
+
+.icon-font,
+[class^="icon-"]::before,
+[class^="icon-"].right::after,
+[class*=" icon-"]::before,
+[class*=" icon-"].right::after {
   font-family: "iconfont";
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
-  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -webkit-font-feature-settings: "liga";
   -moz-font-feature-settings: "liga=1";
   -moz-font-feature-settings: "liga";
   -ms-font-feature-settings: "liga" 1;
@@ -70,9 +104,30 @@ Pixels      Ems         Ems @ 16    % of 13
   -webkit-font-smoothing: antialiased;
 }
 
-.wolf-icon::before {
-  font-family: "iconfont";
+[class^="icon-"].right::before,
+[class*=" icon-"].right::before {
+  display: none;
+  content: "";
+}
+
+.icon-wolf::before,
+.icon-wolf.right::after {
   content: "";
+}
+
+.icon-twitter::before,
+.icon-twitter.right::after {
+  content: "";
+}
+
+.icon-dribbble::before,
+.icon-dribbble.right::after {
+  content: "";
+}
+
+.icon-github::before,
+.icon-github.right::after {
+  content: "";
 }
 
 /****************
