@@ -6,3 +6,9 @@ logs/error.log
 codekit-config.json
 
 *.scssc
+
+*.log
+
+prototypes/logs/access.log
+
+prototypes/logs/error.log
