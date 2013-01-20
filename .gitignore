@@ -12,3 +12,5 @@ codekit-config.json
 prototypes/logs/access.log
 
 prototypes/logs/error.log
+
+prototypes/codekit-config.json
