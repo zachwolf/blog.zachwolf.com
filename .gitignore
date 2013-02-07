@@ -14,3 +14,9 @@ prototypes/logs/access.log
 prototypes/logs/error.log
 
 prototypes/codekit-config.json
+
+prototypes/.sass-cache/*
+
+*.scssc
+
+*.scssc
