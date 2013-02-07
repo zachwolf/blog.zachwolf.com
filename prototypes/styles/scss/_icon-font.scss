@@ -22,12 +22,12 @@
  */
 
 @font-face {
-  font-family: 'iconfont-Regular';
-  src: url('/fonts/iconfont-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/iconfont-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/iconfont-Regular.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/iconfont-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/iconfont-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'iconfont';
+  src: url('/fonts/Iconset-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Iconset-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Iconset-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/Iconset-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Iconset-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
   font-weight: normal;
   font-style: normal;
 }
@@ -35,11 +35,11 @@
 /* This triggers a redraw in IE to Fix IE8's :before content rendering. */
 html:hover [class^="ss-"]{-ms-zoom: 1;}
 
-.icon-font,
-[class^="icon-"]::before,
-[class^="icon-"].right::after,
-[class*=" icon-"]::before,
-[class*=" icon-"].right::after {
+.i-font,
+[class^="i-"]::before,
+[class^="i-"].right::after,
+[class*=" i-"]::before,
+[class*=" i-"].right::after {
 	font-family: "iconfont";
   font-style: normal;
   font-weight: normal;
@@ -55,28 +55,28 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
   -webkit-font-smoothing: antialiased;
 }
 
-[class^="icon-"].right::before,
-[class*=" icon-"].right::before {
+[class^="i-"].right::before,
+[class*=" i-"].right::before {
   display: none;
   content: "";
 }
 
-.icon-wolf::before,
-.icon-wolf.right::after {
-  content: "";
-}
-
-.icon-twitter::before,
-.icon-twitter.right::after {
+.i-wolf::before,
+.i-wolf.right::after {
   content: "";
 }
 
-.icon-dribbble::before,
-.icon-dribbble.right::after {
+.i-twitter::before,
+.i-twitter.right::after {
   content: "";
 }
 
-.icon-github::before,
-.icon-github.right::after {
+.i-dribbble::before,
+.i-dribbble.right::after {
   content: "";
+}
+
+.i-github::before,
+.i-github.right::after {
+  content: "";
 }

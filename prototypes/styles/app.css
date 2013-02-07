@@ -70,10 +70,10 @@ Pixels      Ems         Ems @ 16    % of 13
  *
  */
 @font-face {
-  font-family: 'iconfont-Regular';
-  src: url("/fonts/iconfont-Regular.eot");
+  font-family: 'iconfont';
+  src: url("/fonts/Iconset-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/iconfont-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/iconfont-Regular.woff") format("woff"), url("/fonts/iconfont-Regular.ttf") format("truetype"), url("/fonts/iconfont-Regular.svg#svgFontName") format("svg");
+  src: url("/fonts/Iconset-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Iconset-Regular.woff") format("woff"), url("/fonts/Iconset-Regular.ttf") format("truetype"), url("/fonts/Iconset-Regular.svg#svgFontName") format("svg");
   /* Legacy iOS */
   font-weight: normal;
   font-style: normal;
@@ -84,11 +84,11 @@ html:hover [class^="ss-"] {
   -ms-zoom: 1;
 }
 
-.icon-font,
-[class^="icon-"]::before,
-[class^="icon-"].right::after,
-[class*=" icon-"]::before,
-[class*=" icon-"].right::after {
+.i-font,
+[class^="i-"]::before,
+[class^="i-"].right::after,
+[class*=" i-"]::before,
+[class*=" i-"].right::after {
   font-family: "iconfont";
   font-style: normal;
   font-weight: normal;
@@ -104,30 +104,30 @@ html:hover [class^="ss-"] {
   -webkit-font-smoothing: antialiased;
 }
 
-[class^="icon-"].right::before,
-[class*=" icon-"].right::before {
+[class^="i-"].right::before,
+[class*=" i-"].right::before {
   display: none;
   content: "";
 }
 
-.icon-wolf::before,
-.icon-wolf.right::after {
-  content: "";
-}
-
-.icon-twitter::before,
-.icon-twitter.right::after {
+.i-wolf::before,
+.i-wolf.right::after {
   content: "";
 }
 
-.icon-dribbble::before,
-.icon-dribbble.right::after {
+.i-twitter::before,
+.i-twitter.right::after {
   content: "";
 }
 
-.icon-github::before,
-.icon-github.right::after {
+.i-dribbble::before,
+.i-dribbble.right::after {
   content: "";
+}
+
+.i-github::before,
+.i-github.right::after {
+  content: "";
 }
 
 /****************
@@ -337,6 +337,18 @@ a:hover {
   color: #fff;
 }
 
+.wolf-logo {
+  color: #cccccc;
+  vertical-align: middle;
+  padding: 1rem 0.625rem;
+  display: table-cell;
+  font-size: 1.25rem;
+  height: 1.618rem;
+}
+.wolf-logo::before {
+  color: #e05200 !important;
+}
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -412,7 +424,7 @@ a:hover {
   display: table-cell;
   font-size: 1.25rem;
   height: 1.618rem;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid white;
 }
 
 /*a*/
