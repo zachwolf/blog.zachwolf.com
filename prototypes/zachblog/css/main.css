@@ -1,0 +1,90 @@
+/* line 1, ../scss/global.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, ../scss/global.scss */
+body {
+  background-color: #ccc;
+  line-height: 1.4; }
+
+/* line 10, ../scss/global.scss */
+.global_header,
+.global_footer {
+  position: fixed;
+  left: 0px;
+  width: 20%; }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* line 10, ../scss/global.scss */
+    .global_header,
+    .global_footer {
+      position: relative;
+      width: 100%; } }
+
+/* line 20, ../scss/global.scss */
+.global_header {
+  top: 0px; }
+
+/* line 23, ../scss/global.scss */
+.global_header-nav {
+  background-color: #666;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 1000ms;
+  -moz-transition: all 1000ms;
+  -o-transition: all 1000ms;
+  transition: all 1000ms; }
+  /* line 29, ../scss/global.scss */
+  .global_header-nav ul {
+    max-height: 0;
+    bottom: -33px;
+    position: relative;
+    -webkit-transition: all 1000ms;
+    -moz-transition: all 1000ms;
+    -o-transition: all 1000ms;
+    transition: all 1000ms; }
+  /* line 35, ../scss/global.scss */
+  .global_header-nav li {
+    position: relative;
+    top: -66px;
+    -webkit-transition: all 1000ms;
+    -moz-transition: all 1000ms;
+    -o-transition: all 1000ms;
+    transition: all 1000ms; }
+  /* line 40, ../scss/global.scss */
+  .global_header-toggle:checked + .global_header-nav {
+    max-height: 66px; }
+    /* line 43, ../scss/global.scss */
+    .global_header-toggle:checked + .global_header-nav ul {
+      bottom: 0;
+      max-height: 200px; }
+    /* line 47, ../scss/global.scss */
+    .global_header-toggle:checked + .global_header-nav li {
+      top: 0; }
+
+/* line 52, ../scss/global.scss */
+.global_footer {
+  bottom: 0px; }
+
+/* line 55, ../scss/global.scss */
+.blog-main_content {
+  width: 80%;
+  margin-left: 20%;
+  background-color: white; }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* line 55, ../scss/global.scss */
+    .blog-main_content {
+      width: 100%;
+      margin-left: 0; } }
+
+/* line 68, ../scss/global.scss */
+.blog-main_article h1,
+.blog-main_article h2,
+.blog-main_article p {
+  max-width: 800px; }
+/* line 71, ../scss/global.scss */
+.blog-main_article pre {
+  width: 90%;
+  padding: 10px 5%;
+  background-color: #eee;
+  overflow-x: scroll; }
