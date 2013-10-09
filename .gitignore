@@ -5,8 +5,6 @@ logs/error.log
 
 codekit-config.json
 
-*.scssc
-
 *.log
 
 prototypes/logs/access.log
@@ -19,4 +17,4 @@ prototypes/.sass-cache/*
 
 *.scssc
 
-*.scssc
+node_modules/*
