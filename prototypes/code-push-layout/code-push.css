@@ -1,0 +1,35 @@
+body {
+	overflow-x: hidden;
+}
+
+section {
+	width: 800px;
+	margin: 0 auto;
+}
+
+article {
+	width: 600px;
+	margin-left: 200px;
+}
+
+pre {
+	position: relative;
+	padding: 20px;
+	background-color: #C7C7C7;
+}
+
+pre > code {
+	display: table;
+	background-color: #C7C7C7;
+	overflow: scroll;
+}
+
+pre > code::before {
+	content: '';
+	display: block;
+	position: absolute;
+	background-color: #B8B8B8;
+	height: 50px;
+	width: 50px;
+	left: -50px;
+}
