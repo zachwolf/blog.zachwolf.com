@@ -1,0 +1,43 @@
+@import "nav.ui";
+
+/*
+	font-family: "ubuntu", sans-serif;
+	font-family: "ubuntu-mono", sans-serif;
+	font-family: "sommet-slab";
+*/
+
+body {
+	background: $background;
+}
+
+.demo-block {
+  background-color: #666;
+}
+
+.s {
+	background-image: url(/assets/img/sprite.svg);
+	background-repeat: no-repeat;
+}
+
+.zach-wolf-logo {
+	background-image: url(/assets/img/wolf-logo.svg);
+	background-color: $brand;
+	display: block;
+	height: 100%;
+	-webkit-transition: all 0.15s linear;
+     -moz-transition: all 0.15s linear;
+       -o-transition: all 0.15s linear;
+          transition: all 0.15s linear;
+	width: 100%;
+
+	.nav--fat-a-f & {
+		background-position: -100px -79px;
+		background-size: 400px auto;
+	}
+
+	.nav--skinny & {
+		background-position: -1px -39px;
+		background-size: 202px auto;
+	}
+
+}

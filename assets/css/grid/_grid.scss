@@ -1,0 +1,94 @@
+// extend grids 
+
+//.grid {
+//  max-width: 1080px;
+//  margin: 0 auto;
+//}
+
+.grid .grid {
+  max-width: auto;
+  margin: auto;
+}
+
+.grid {
+  max-width: 1080px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+//  margin: 0;
+//    margin-left:-$gutter;
+//    @if $use-markup-fix != true{
+//        letter-spacing:-0.31em;
+//    }
+}
+
+.grid--rev{
+    direction:rtl;
+    text-align:left;
+
+    > .grid__item{
+        direction:ltr;
+        text-align:left;
+    }
+}
+
+.grid__item {
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+            box-sizing:border-box;
+//    padding-left:$gutter;
+//    @if $mobile-first == true{
+//        width:100%;
+//    }
+//    @if $use-markup-fix != true{
+//        letter-spacing:normal;
+//        word-spacing:normal;
+//    }
+}
+
+
+
+$units: ('one',          'two',        'three',        'four',
+         'five',         'six',        'seven',        'eight',
+         'nine',         'ten',        'eleven',       'twelve',
+         'thirteen',     'fourteen',   'fifteen',      'sixteen',
+         'seventeen',    'eighteen',   'nineteen',     'twenty',
+         'twenty-one',   'twenty-two', 'twenty-three', 'twenty-four',
+         'twenty-five',  'twenty-six', 'twenty-seven');
+
+$unit-width: 40px;
+
+@mixin loop($list, $class, $property, $multiplyer:1) {
+  $count: 1;
+
+  @each $item in $list {
+    .#{$item}-#{$class} {
+      #{$property}: $unit-width * $count * $multiplyer;
+    }
+    $count: $count + 1;
+  }
+
+  $count: $count + 1;
+}
+
+@include loop($units, "unit", "width");
+@include loop($units, "push", "margin-left");
+@include loop($units, "pull", "margin-left", -1);
+
+
+
+//@each $unit in $units {
+//  .#{$unit}-unit {
+//    width: $unit-width * $count;
+//  }
+//  $count: $count + 1;
+//}
+
+//    @include grid-media-query($name) {
+//       @include device-type('#{$name}--');
+//    }
+
+
+

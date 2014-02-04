@@ -1,0 +1,66 @@
+/*
+Syntax error: File to import not found or unreadable: compass/css3/box-shadow.
+              Load path: /Users/zachwolf/Sites/blog.zachwolf.com/assets/css
+        on line 1 of ui/_nav.ui.scss
+        from line 1 of ui/_wolf.ui.scss
+        from line 29 of style.scss
+
+1: @charset "UTF-8";
+2: /*------------------------------------*\
+3:     STYLE.CSS
+4: \*------------------------------------*\/
+5: /**
+6:  *
+
+Backtrace:
+ui/_nav.ui.scss:1
+ui/_wolf.ui.scss:1
+style.scss:29
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:45:in `import'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `map'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `map'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Users/zachwolf/.rvm/gems/ruby-1.9.3-p0/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/darwin.rb:38:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css3/box-shadow.\A               Load path: /Users/zachwolf/Sites/blog.zachwolf.com/assets/css\A         on line 1 of ui/_nav.ui.scss\A         from line 1 of ui/_wolf.ui.scss\A         from line 29 of style.scss\A \A 1: @charset \"UTF-8\";\A 2: /*------------------------------------*\\A 3:     STYLE.CSS\A 4: \*------------------------------------*/\A 5: /**\A 6:  *"; }

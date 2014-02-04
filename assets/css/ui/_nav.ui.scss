@@ -1,0 +1,70 @@
+@import "compass/css3/box-shadow";
+
+//$nav-fat:    100px !default;
+//$nav-skinny: 50px  !default;
+
+.sticky {
+	position: fixed;
+	width: 100%;
+}
+
+.sticky--top {
+	top: 0;
+}
+
+.sticky--bottom {
+	bottom: 0;
+}
+
+.nav--offset {
+	margin-top: $nav-fat;
+}
+
+.sticky--top {
+
+}
+
+.nav {
+  -webkit-transition: height 0.15s linear;
+     -moz-transition: height 0.15s linear;
+       -o-transition: height 0.15s linear;
+          transition: height 0.15s linear;
+	margin: 0;
+}
+
+/* nav */.nav--primary {
+	background-color: $brand;
+	@include box-shadow(0 0 0 3px rgba($shadow, 0.2));
+	border-bottom: 5px solid darken($brand, 5%);
+
+	.nav--item {
+		margin-right: 40px;
+	}
+
+	* { /* makes all the children 100% so they resize with the header */
+		height: 100%;
+	}
+}
+
+/* a */.nav--item {
+	display: block;
+	margin: 0;
+}
+
+	.nav__item--accent {
+		@include box-shadow( 0   5px 0 $background,
+												 3px 0   0 darken($brand, 5%),
+												-3px 0   0 darken($brand, 5%));
+	}
+
+.nav--fat-a-f {
+	height: $nav-fat;
+	.nav--item {
+	}
+}
+
+.nav--skinny {
+	height: $nav-skinny;	
+	.nav--item {
+	}
+}
