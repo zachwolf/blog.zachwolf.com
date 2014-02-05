@@ -1,35 +1,58 @@
 body {
-	overflow-x: hidden;
+	background-color: #fff;
+	margin: 0;
+}
+
+.page {
+	width: 100%;
+	overflow: hidden;
+	background-color: #E3E3E3;
 }
 
 section {
-	width: 800px;
+	background-color: #C6C6C6;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
 article {
-	width: 600px;
+	background-color: #AAAAAA;
+	/*width: 600px;*/
 	margin-left: 200px;
 }
 
 pre {
 	position: relative;
 	padding: 20px;
-	background-color: #C7C7C7;
+	background-color: #8E8E8E;
+}
+
+pre::before {
+	content: '';
+	display: block;
+	position: absolute;
+	background-color: #555555;
+	height: 50px;
+	width: 50px;
+	left: -50px;
+}
+
+pre::after {
+	content: '';
+	background-color: #393939;
+	position: absolute;
+	display: block;
+	width: 1000px;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	z-index: 1;
 }
 
 pre > code {
 	display: table;
-	background-color: #C7C7C7;
+	background-color: #717171;
 	overflow: scroll;
-}
-
-pre > code::before {
-	content: '';
-	display: block;
-	position: absolute;
-	background-color: #B8B8B8;
-	height: 50px;
-	width: 50px;
-	left: -50px;
+	position: relative;
+	z-index: 2;
 }
